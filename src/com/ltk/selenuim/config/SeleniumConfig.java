@@ -1,14 +1,12 @@
-package demo;
+package com.ltk.selenuim.config;
 
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class test {
-	WebDriver driver;
-	JavascriptExecutor jse;
+public class SeleniumConfig {
+	private WebDriver driver;
 
 	public void invokeBrowser() {
 		try {
@@ -20,21 +18,9 @@ public class test {
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 			driver.get("http://localhost:8080/Forum/trang-chu");
-			searchCourse();
 		} catch (Exception e) {
-// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
-	}
-
-	public void searchCourse() {
-
-	}
-
-	public static void main(String[] args) {
-		System.out.print("hello");
-		test myObj = new test();
-		myObj.invokeBrowser();
 	}
 }

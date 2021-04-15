@@ -6,6 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry excluding="com/ltk/forum/test/Test.java|com/ltk/forum/test/|com/ltk/forum/" kind="src" path="src"/>
+	<classpathentry kind="src" path="SeleniumDriver"/>
 	<classpathentry kind="lib" path="E:/selenium/selenium-server-standalone-3.9.1.jar"/>
 	<classpathentry kind="lib" path="E:/selenium/selenium-server-3.9.1/selenium-3.9.1-nodeps.jar"/>
 	<classpathentry kind="lib" path="E:/selenium/selenium-server-3.9.1/selenium-3.9.1-nodeps-sources.jar"/>
