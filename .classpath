@@ -48,5 +48,8 @@
 	<classpathentry kind="lib" path="E:/selenium/selenium-server-3.9.1/libs/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="E:/selenium/selenium-server-3.9.1/libs/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="E:/selenium/selenium-server-3.9.1/libs/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="D:/Libraries/Java Archives/Selenium/selenium-3.9.1-nodeps.jar"/>
+	<classpathentry kind="lib" path="D:/Libraries/Java Archives/Selenium/selenium-3.9.1-nodeps-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Libraries/Java Archives/Selenium/selenium-server-standalone-3.9.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
